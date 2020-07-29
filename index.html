@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Particle Web</title>
+  </head>
+  <body>
+    <!-- Setting divID='particles-js' as stated in Particle.js Documentation -->
+    <div id="particles-js">
+        <div class="loginform">
+            
+                <form>
+                    <div class="title">Login</div>
+                    <br />
+                    <hr />
+                    <br />
+                    <input type="text" placeholder="Username" /><br />
+                    <input type="password" placeholder="Password" /><br />
+                    <input type="submit" value="Login" />
+                </form>
+            
+        </div>
+    </div>
+
+    <!-- Importing particles.js script from JSDeliver -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+      particlesJS.load("particles-js", "particles.json", function () {
+        console.log("particles.json loaded!");
+      });
+    </script>
+  </body>
+</html>
